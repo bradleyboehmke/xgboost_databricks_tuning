@@ -22,11 +22,17 @@ September 9, 2021
 
 # Why this topic?
 
+* Demand (insider <strike>trading</strike> information)
+* Disparate information
+* Centralization & tighter coupling
+* Interest
 
 ---
 
 # Where it fits
 
+* https://docs.databricks.com/applications/machine-learning/train-model/machine-learning.html#xgboost
+* TBD
 
 ---
 
