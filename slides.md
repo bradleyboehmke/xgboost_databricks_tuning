@@ -27,13 +27,7 @@ Tutorial Docs: [bit.ly/db_notebook_docs](https://bit.ly/db_notebook_docs)
 
 # Tutorial objective
 
-<br>
-
-<center>
 <p style="font-size:30px">Advanced XGBoost Hyperparameter Tuning on Databricks</p>
-</center>
-
-<br><br>
 
 Objective:
 
@@ -42,24 +36,26 @@ Objective:
 &nbsp;&nbsp;&nbsp;- Effective and efficient scaling of XGBoost hyperparameter search (Hyperopt)<br>
 &nbsp;&nbsp;&nbsp;- Tracking and organizing grid search performance (MLFlow)
 
+<img src="images/tooling_used.png" alt="Tooling used" height="50%" width="50%">
+
 ---
 
 # Why this topic?
 
 * Demand (insider <strike>trading</strike> information)
+* Leverage expertise to shorten learning curve
+* Interest
 * Disparate information
 * Centralization & tighter coupling
-* Interest
-* Leverage expertise to shorten learning curve
 
 ---
 
 # Where it fits
 
-* https://docs.databricks.com/applications/machine-learning/train-model/machine-learning.html#xgboost
+* [https://docs.databricks.com/applications/machine-learning/train-model/machine-learning.html#xgboost](https://docs.databricks.com/applications/machine-learning/train-model/machine-learning.html#xgboost)
 * Designed to be a standalone tutorial guide that builds on top of the standard usage guides while showing how to scale out hyperparameter tuning with Databricks centric tooling
-
-<img src="images/tooling_used.png" alt="Tooling used" height="75%" width="75%">
+* As a tutorial guide, it is designed to be digested in about 10-15 min
+* As a workshop, 30 minutes would be more appropriate
 
 ---
 
@@ -72,7 +68,7 @@ This tutorial makes the assumption that the reader:
 * <b>ML</b>: Understands the basics of the GBM/XGBoost algorithm and is familiar with the idea of hyperparameter tuning
 * <b>Environment</b>: Has access to a Databricks ML runtime cluster to reproduce results (~ 20 min compute time)
 
-<b><font color="blue">Target audience</font></b>: Data scientist transitioning to Databricks that has experience with machine learning in general and, more specifically, some experience with XGBoost. The reader's objective is to better understand what XGBoost hyperparameters to focus on, what values to explore, and how best to implement this process within Databricks.
+<b><font color="blue">Target audience</font></b>: Data scientist transitioning to Databricks that has experience with machine learning in general and, more specifically, some experience with XGBoost. The reader's objective is to better understand what XGBoost hyperparameters to focus on, what values to explore, and how best to implement the search process within Databricks.
 
 ---
 
@@ -423,7 +419,17 @@ MLFlow
 ---
 # My approach
 
+1 - Assess the tutorial landscape that currently exists (1-2 hrs)
 
+2 - Decide on a topic & delivery format
+
+3 - Research unknown components (hyperopt & mlflow) (1-2 hrs)
+
+4 - Tinker with code for discovery purposes (1-2 hrs)
+
+5 - Remove unncessary code and fill in with prose context (2 hrs)
+
+6 - Independent reviews & incorporate feedback (30 min)
 
 ---
 
