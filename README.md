@@ -1,6 +1,8 @@
 # Advanced XGBoost Hyperparameter Tuning in Databricks
 
-View slides: [bit.ly/xgb_db_tuning](https://bit.ly/xgb_db_tuning)
+Repo: [bit.ly/xgb_db_tuning](https://bit.ly/xgb_db_tuning)
+
+Slides: [bradleyboehmke.github.io/xgboost_databricks_tuning/index.html](https://bradleyboehmke.github.io/xgboost_databricks_tuning/index.html)
 
 Tutorial Docs: [bit.ly/db_notebook_docs](https://bit.ly/db_notebook_docs)
 
